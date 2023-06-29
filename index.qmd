@@ -1,0 +1,13 @@
+# Welcome! {.unnumbered}
+## A template to write books ready for self-publishing
+
+```{r, eval = FALSE}
+library(formatR)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
+```{r}
+data(mtcars)
+
+str(mtcars)
+```
