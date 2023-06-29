@@ -10,6 +10,13 @@ knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = r)
 a very long line of R code that wraps in html, epub and PDF! In a pdf especially this is needed
 ```
 
+```{r}
+
+data(mtcars)
+lm(mpg ~ ., data = mtcars)
+
+```
+
 This is how you can show verbatim code chunks in the output. This is using
 a `{verbatim}` chunk (check the source `index.qmd`):
 
