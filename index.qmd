@@ -41,3 +41,17 @@ knitr::include_graphics("images/gosling.jpg")
 ```
 
 See @fig-gosling for a meme.
+
+## Conditional content
+
+The block below does not appear in the PDF, only on the website and Epub:
+
+::: {.content-hidden when-format="pdf"}
+Hello, I won't appear in the PDF!
+:::
+
+But this text here, will only appear in the PDF!
+
+::: {.content-visible when-format="pdf"}
+Hello, I only appear in the PDF!
+:::
