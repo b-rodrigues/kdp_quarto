@@ -50,8 +50,6 @@ The block below does not appear in the PDF, only on the website and Epub:
 Hello, I won't appear in the PDF!
 :::
 
-But this text here, will only appear in the PDF!
-
 ::: {.content-visible when-format="pdf"}
-Hello, I only appear in the PDF!
+But this text here, will only appear in the PDF!
 :::
