@@ -31,6 +31,7 @@ format:
       "2023-06-20"
     css:
       epub.css
+  html:
     theme:
       light: flatly
       dark: solar
