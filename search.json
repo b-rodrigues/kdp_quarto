@@ -18,6 +18,6 @@
     "href": "index.html#figures",
     "title": "A template for generating a valid EPUB, a KDP-ready PDF and a website for your book",
     "section": "Figures",
-    "text": "Figures\nUse knitr::include_graphics() to include images. Check the source for how to add labels and captions:\nSee ?fig-gosling for a meme."
+    "text": "Figures\nUse knitr::include_graphics() to include images. Check the source for how to add labels and captions:\n\nknitr::include_graphics(\"images/gosling.jpg\")\n\n\n\n\nFigure 1: Ryan Gosling looking angry.\n\n\n\n\nSee Figure 1 for a meme."
   }
 ]
