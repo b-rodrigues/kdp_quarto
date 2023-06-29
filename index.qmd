@@ -1,10 +1,9 @@
 # Welcome! {.unnumbered}
 ## A template to write books ready for self-publishing
 
-```{r, eval = FALSE}
-library(formatR)
-knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = r)
-```
+Go to [https://github.com/b-rodrigues/kdp_quarto](https://github.com/b-rodrigues/kdp_quarto) for the source code.
+
+Go to [https://b-rodrigues.github.io/kdp_quarto/](https://b-rodrigues.github.io/kdp_quarto/) to visit the published website.
 
 ```{r, eval = F}
 a very long line of R code that wraps in html, epub and PDF! In a pdf especially this is needed
