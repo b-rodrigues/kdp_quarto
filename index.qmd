@@ -37,7 +37,7 @@ labels and captions:
 ```{r}
 #| label: fig-gosling
 #| fig-cap: "Ryan Gosling looking angry."
-
+knitr::include_graphics("images/gosling.jpg")
 ```
 
 See @fig-gosling for a meme.
