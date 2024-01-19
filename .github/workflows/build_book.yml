@@ -41,4 +41,4 @@ jobs:
         run: sudo apt-get install epubcheck
 
       - name: Check epub with epubcheck
-        run: epubcheck _book/A-template-for-generating-a-valid-EPUB%2C-a-KDP-ready-PDF-and-a-website-for-your-book.epub
+        run: epubcheck _book/A-template-for-generating-a-valid-EPUB,-a-KDP-ready-PDF-and-a-website-for-your-book.epub
