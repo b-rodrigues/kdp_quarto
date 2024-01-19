@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup pandoc
         uses: r-lib/actions/setup-pandoc@v2
@@ -36,3 +36,9 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+
+      - name: Install epubcheck
+        run: sudo apt-get install epubcheck
+
+      - name: Check epub with epubcheck
+        run: epubcheck _book/A-template-for-generating-a-valid-EPUB%2C-a-KDP-ready-PDF-and-a-website-for-your-book.epub
